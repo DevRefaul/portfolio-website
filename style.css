@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif; 
+}
+#header{
+    width: 100%;
+    background-color: #fff;
+    height: 80px;
+    position: fixed;
+}
+.container{
+     justify-content: space-between; 
+
+}
+/* .logo{
+
+} */
+.logo  img{
+    width: 180px;
+    height: auto;
+    cursor: pointer; 
+}
+/* .navbar{
+
+}  */
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    padding: 6px 30px;
+    float: left;
+    text-align: center;
+    
+}
+.navbar ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(75, 73, 73);
+}
+.navbar ul li a:hover{
+    color: blue;
+
+}
+                    /* header section done */
+ 
+.fstsection{
+    background-color: #F9F9FF;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+     justify-content: center;
+    align-items: center; 
+ }
+ .fstsection .content{
+     width: 30%;
+     padding: 2%;
+ }
+ .fstsection .content h4{
+     font-size: 18px;
+   
+ }
+ .fstsection .content h1{
+     font-size: 70px;
+     font-weight: 700;
+     padding: 15px 0px 20px 0px;
+     background: -webkit-linear-gradient(#8392FF, #62BDFC);
+     -webkit-background-clip : text; 
+    -webkit-text-fill-color: transparent;
+ }
+ .fstsection .content p{
+     font-size: 20;
+   margin-bottom: 30px;
+ }
+  .btn{
+     width: 200px;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    background-image: linear-gradient(90deg, #8593ff, #62BDFC)
+ }
+  .btn a{
+     color: #fff;
+     text-decoration: none;
+     font-size: 20px;
+ }
+ .btn:hover{
+     width: 220px;
+     border-radius: 10px;
+    transition: all .25s linear;
+    box-shadow: 2px 25px 20px  rgba(133, 147, 255,0.3) ;
+ }
+ /*first section's content style done */
+
+.fstsection .img{
+    padding-top: 5%;
+   width: 45%;
+}
+.fstsection .img  img{
+    width: 70%;
+    margin-left: 10%;
+}
+/* first section image style done */
+
+
+
+/* secnd section's  style started */
+.secsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 2%;
+}
+.secsection .img{
+    margin-right: 50px;
+}
+.secsection .contenttwo{
+    margin-left: 50px;
+    padding: 0% 3%;
+}
+.secsection .contenttwo h4{
+    font-size: 15px;
+    color: #414344;
+}
+.secsection .contenttwo h1{
+    font-size: 35px;
+    margin: 20px 0px;
+    font-weight: 700;
+}
+.secsection .contenttwo p{
+    font-size: 17px;
+}
+
+
+.btntwo{
+    width: 220px;
+   padding: 10px 30px;
+   border: none;
+   outline: none;
+   background-image: linear-gradient(90deg, #8593ff, #62BDFC)
+}
+ .btntwo a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+.btntwo:hover{
+    width: 250px;
+    border-radius: 10px;
+   transition: all .25s linear;
+   box-shadow: 2px 25px 20px  rgba(133, 147, 255,0.3) ;
+}
+
+/*  section two style done */
+
+/* service section style started*/
+.service-head{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.service-head h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.service-head p{
+    font-size: 18px;
+    color: #414344;
+}
+
+/* article of service seection */
+
+/* .article-one{
+    
+} */
+.card-group{
+    text-align: center;
+    margin-top: 60px;
+
+}
+.card{
+    border: none;
+    width: 25%;
+}
+.card img{
+    width: 50px;
+    margin: auto;
+}
+.card h5{
+    font-size: 20px;
+    font-weight: 700;
+}
+.card p{
+    font-size: 18px;
+}
+.card:hover {
+    background-image: linear-gradient(145deg, #8593ff, #62BDFC) ;
+
+}
+.card:hover p{
+    color: #fff;
+}
+.card:hover h5{
+    color:#fff;
+}
+.article-two{
+    margin-bottom: 100px;
+}
+
+/* service section style done*/
+
+/* projects section */
+
+.projects-done{
+    width: 100%;
+    height: 240px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(90deg, #8593ff, #62BDFC);
+} 
+.projects-done .container{
+    text-align: center;
+    display: flex;
+}
+.container div{
+    margin: auto;
+}
+.projects-done .container figure{
+    /* width: 23%; */
+    color: #fff;
+    /* display: inline-block; */
+    /* margin-top: 6.5%; */
+
+}
+.projects-done .container figure h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+/*  projects section done */
+
+/* portfolio section  start */
+
+#portfolio{
+    margin-bottom: 150px;
+}
+#portfolio h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+#portfolio p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#first-section-card{
+    margin: 50px 0px 50px 0px;
+}
+.card-group2{
+    display: flex;
+}
+.card-group2 .card img{
+    width: 100%;
+    
+}
+ .card:hover{
+    box-shadow: 8px 8px 10px lightblue;
+
+}
+
+/* portfolio section style done */
+
+/* pricing section */
+#pricing{
+    padding-top: 100px;
+    background-color: #F9F9FF;
+    width: 100%;
+    padding-bottom:100px ;
+}
+.price-table h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+}
+.price-table p{
+    text-align: center;
+    font-size: 16px;
+    /* color: #414344; */
+}
+.p-table {
+    display: flex;
+   /* padding-top: 80px ; */
+   background-color: #fff;
+}
+.p-con{
+    padding-bottom:90px ;
+}
+#table-p{
+    text-align: center;
+    height: 640px;
+}
+#table-p h1{
+    margin: 20px;
+    padding-top: 50px;
+    height: 200px;
+    width: 200px;
+    text-align:middle;
+    border: 20px solid #8392FF;
+    border-radius: 50%;
+}
+#table-p:hover{
+    color: #fff;
+    height: 680px;
+    transition: all 1s  ease-out ;
+   background-image: linear-gradient(45deg, #8593ff, #62BDFC);
+}
+#table-p:hover h1{
+    border: 20px solid #fff;
+    border-radius: 50%;
+
+}
+
+/* pricing section done */
+
+
+/* partners section style start */
+.partners{
+    height: 220px;
+    display: flex;
+
+    align-items: center;
+    background-image:linear-gradient(90deg, #8593ff, #62BDFC) ;
+}
+.prt-img img{
+   
+    padding: 5%;
+  
+}
+
+/*  partners section style done */
+
+/* contact us section */
+
+.contact{
+    background-color: #F9F9FF;
+    padding-bottom: 100px;
+}
+.contact-form{
+
+    align-items: center;
+ 
+}
+.contact-form .chead{
+    padding: 100px 0px 80px 0px;
+    text-align: center;
+
+}
+.contact-form .chead h1{
+    font-weight: 700;
+}
+.form{
+    /* background-color: #fff; */
+    background-image: linear-gradient(90deg, #8593ff, #62BDFC);
+    padding: 5%;
+    width: 50%;
+}
+ #fname{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+.name{
+    width: 420px;
+    height: 40px;
+    padding: 10px;
+}
+#fmail{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 30px 0px;
+}
+.mail{
+    width: 420px;
+    height: 40px;
+    padding: 10px;
+}
+#fnum{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 30px 0px;
+}
+.num{
+    width: 420px;
+    height: 40px;
+    padding: 10px;
+}
+
+.btn-info{
+    font-weight: 700;
+    margin: 0 auto;
+    width: 180px;
+    height: 50px;
+    display: block;
+    color: #fff;
+    padding: 8px 50px;
+    margin-top: 30px;
+ 
+}
+
+.btn-info:hover{
+    border-radius: 30px;
+    font-weight: 700;
+    color: #fff;
+    width: 220px;
+    background-image: linear-gradient(90deg, #8593ff, #62BDFC);
+}
+
+
+/* footer section style started */
+
+.footer{
+    width: 100%;
+    height: 380px;
+    background-color: #04091E;
+}
+.fcontent{
+    padding-top: 50px;
+}
+.fcontent h3{
+    color: #fff;
+}
+.leftf,.middlef,.rightf{
+    width: 33%;
+    float: left;
+    text-align: center;
+
+}
+.middlef input{
+    width: 90%;
+    margin-top: 20px;
+    height: 40px;
+    outline: none;
+}
+.middlef button{
+    outline: none;
+    margin-left: -48px;
+    width: 10%;
+    height: 40px;
+    background-color: #62BDFC;
+    color: #fff;
+}
+
+.fa{
+   color: #fff;
+   padding: 20px;
+}
+
+
+
+
+/* footer section style done */
